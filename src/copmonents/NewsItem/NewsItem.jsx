@@ -4,7 +4,9 @@ import styles from './styles.module.css';
 const NewsItem = ({item}) => {
     return (
         <li className={styles.item}>
-            <div className={styles.wrapper} style={{backgroundImage: `url(${item.image})`}}>
+            <div 
+                className={styles.wrapper}
+                style={{backgroundImage: `url(${item.image})`}}>
 
             </div>
             <div className={styles.info}>
