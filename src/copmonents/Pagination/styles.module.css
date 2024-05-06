@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNumber, .arrow {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pageNumber:disabled, .arrow:disabled {
+    cursor: default;
+}
+
+.pageNumber:hover, .arrow:hover, .pageNumber:focus, .arrow:focus {
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.pageNumber:active, .arrow:active {
+    font-weight: bold;
+    color:gray;
+    transition: all .5s;
+}
+
+.pageNumber {
+    padding: 8px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
