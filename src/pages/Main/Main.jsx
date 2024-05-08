@@ -21,6 +21,7 @@ const Main = () => {
 
     const debouncedKeywords = useDebounce(keywords, 1500);
   
+    
     const fetchNews = async (currentPage) => {
       try {
         setIsLoading(true);
