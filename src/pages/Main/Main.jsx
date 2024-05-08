@@ -16,6 +16,7 @@ const Main = () => {
     const totalPages = 10;
     const pageSize = 10;
   
+    
     const fetchNews = async (currentPage) => {
       try {
         setIsLoading(true);
