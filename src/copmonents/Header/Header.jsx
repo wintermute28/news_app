@@ -1,5 +1,6 @@
 import { formatDate } from "../../healpers/formatDate";
-import styles from './styles.module.css'
+import styles from './styles.module.css';
+
 const Header = () => {
     return (
         <header className={styles.header}>
