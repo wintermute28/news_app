@@ -1,11 +1,37 @@
 .header {
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     width: 100%;
     padding: 12px 24px;
     background-color: white;
     border-bottom: 1px solid #F2F4F5;
+}
+
+.info {
+    display: flex;
     flex-direction: column;
     gap: 12px;
+
+}
+
+.dark {
+    background-color: #23272f;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    img:hover, .header img:active {
+        transform: rotate(-120deg) scale(1.3);
+        -webkit-filter: drop-shadow(1px 1px 15px #dae50b);
+        filter: drop-shadow(1px 1px 15px #dae50b);
+    }
+  }
+  
+.light {
+background-color: white;
+img:hover, .header img:active {
+    transform: rotate(-120deg) scale(1.3);
+    -webkit-filter: drop-shadow(1px 1px 15px #000000);
+    filter: drop-shadow(1px 1px 15px #000000);
+}
 }
 
 .title {
